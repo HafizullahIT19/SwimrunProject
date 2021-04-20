@@ -7,9 +7,10 @@ Swimrun:
 Exampel Site:
   https://www.templatemonsterpreview.com/demo/83888.html
 
+Work with other:
+  https://replit.com/@WGissle/swimrunproject#index.html
 
-
-
+-----------------------------------------------------------------------------------
 Font Awesome:
         https://fontawesome.com/start
 
@@ -20,7 +21,7 @@ animate.style:
 
 
 
-
+-------------------------------------------------------------------------------------
 
 OBS
   BEM = Block Element Modifier
