@@ -19,8 +19,8 @@ window.addEventListener('scroll', function () {
 
 
 //example
-// const btn = document.querySelector('#icon');
+const btn = document.querySelector('#play');
 
-// btn.addEventListener('click', function () {
-//     console.log('Helloooooo');
-// });
+btn.addEventListener('click', function () {
+    console.log('Helloooooo');
+});
