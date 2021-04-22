@@ -209,6 +209,7 @@ nav ul li a:hover{
 
 /* ------------- Icon-goes-up Start -------------*/
 .icon-goes-up{
+    display: none;
     position: fixed;
     bottom: 17px;
     right: 10px;

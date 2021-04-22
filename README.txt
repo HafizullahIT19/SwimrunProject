@@ -12,11 +12,13 @@ Work with other:
 
 -----------------------------------------------------------------------------------
 Font Awesome:
-        https://fontawesome.com/start
+  https://fontawesome.com/start
 
 animate.style:
-        https://animate.style/
+  https://animate.style/
 
+window.onscroll:
+  https://www.youtube.com/watch?v=V9CY0F4Wc7M
 
 
 
