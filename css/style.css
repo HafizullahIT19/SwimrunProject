@@ -167,11 +167,12 @@ nav ul li a:hover{
 
 /* -------------------------- section Start  -------------------------- */
 
-/* ------------- Video-content -------------*/
+/* ------------- Video-content Start -------------*/
 .video-container{
+    margin: 30px auto 30px auto;
     margin-top: 30px;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 600px;
     position: relative;
     /* background-color: #009688; */
 }
@@ -179,17 +180,19 @@ nav ul li a:hover{
 #video{
     width: 100%; 
     height: 100%;
+
 }
 .content{
     background: rgba(231, 85, 85, 0.5);
-    width: 900px;
-    height: 200px;
+    width: 100%;
+    height: 25%;
     position: absolute;
-    margin-top: 300px;
+    margin-top: 33%;
+    text-align: center;
 }
 
 
-
+/* ------------- Video-content Start -------------*/
 
 
 
@@ -203,15 +206,69 @@ nav ul li a:hover{
 
 
 /* -------------------------- footer Start  -------------------------- */
-.icon-up{
+
+/* ------------- Icon-goes-up Start -------------*/
+.icon-goes-up{
     position: fixed;
     bottom: 17px;
     right: 10px;
+    z-index: 5;
 }
 
-.fa-arrow-circle-up{
+.icon-goes-up i{
+    font-size: 40px;
+    color: rgb(131, 134, 134);
+}
+
+.icon-goes-up i:hover{
     font-size: 40px;
     color: teal;
+}
+
+
+/* ------------- Icon-goes-up End -------------*/
+
+
+.footer-bottom {
+    position: relative;
+    bottom: 0;
+}
+
+.block-wall {
+    width: 100%;
+    height: 8px;
+    background-color: #040F59;
+}
+
+
+.block {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    color: white;
+    font-size: 9px;
+}
+
+.namn {
+    padding-top: 12px;
+}
+
+.plus {
+    font-size: 14px;
+}
+
+.sajjan {
+    color: rgb(122, 122, 122);
+    font-size: 10px; 
+}
+
+.sajjan:hover {
+    color: white;
+    transition: 0.25s;
 }
 
 
