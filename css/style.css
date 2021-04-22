@@ -82,7 +82,7 @@ header{
     color: rgb(211, 208, 21);
 }
 
-
+/* sing in icon  */
 .fa-sign-in-alt{
     margin-left: 30px !important;
     color: black;
@@ -99,7 +99,7 @@ header{
 .header-bottom{
     width: 100%;
     height: 100px;
-    background-color: #009688;
+    background-color: #040F59;
     padding: 0 30px;
 }
 
@@ -122,11 +122,15 @@ nav ul li{
 }
 nav ul li a{
     font-size: 24px;
-    color: rgb(41, 39, 39);
+    color: rgb(255, 255, 255);
 }
 
 nav ul li a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(134, 134, 134);
+}
+
+.active{
+    color: rgb(134, 134, 134);
 }
 
 .header-bottom__search{
@@ -172,22 +176,27 @@ nav ul li a:hover{
     margin: 30px auto 30px auto;
     margin-top: 30px;
     width: 80%;
-    height: 600px;
+    height: 572px;
     position: relative;
     /* background-color: #009688; */
 }
 
-#video{
-    width: 100%; 
+.video{
+    width: 100%;
     height: 100%;
-
+    border: 4px #040F59 solid;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
 }
-.content{
+.video-content{
     background: rgba(231, 85, 85, 0.5);
     width: 100%;
     height: 25%;
     position: absolute;
-    margin-top: 33%;
+    bottom: 0;
     text-align: center;
 }
 
