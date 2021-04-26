@@ -104,7 +104,7 @@ h5{
 
 nav{
     width: 70%;
-    height: 80px;
+    height: 60px;
     float: left;
     /* background-color: chartreuse; */
 }
@@ -172,12 +172,12 @@ nav ul li a:hover{
 
 /* ------------- Video-content Start -------------*/
 .video-container{
-    z-index: 3;
     margin: 30px auto 30px auto;
     margin-top: 10px;
     width: 80%;
     height: 570px;
     position: relative;
+    z-index: 3;
     /* background-color: #009688; */
 }
 
@@ -193,31 +193,51 @@ nav ul li a:hover{
     -o-border-radius: 27px;
 }
 .video-content{
+    display: none;
     width: 100%;
-    height: 25%;
+    height: 100%;
     position: absolute;
-    bottom: 0;
+    padding-top: 120px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border: rgb(0, 0, 0) 2px solid;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+}
+
+.video-icons-content{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 40px;
     text-align: center;
     padding: 40px;
     /* background: rgba(231, 85, 85, 0.5); */
 }
 
-.video-content i{
-    font-size: 40px;
+
+
+.video-icons-content i{
+    font-size: 35px;
     float: right;
     /* padding: 15px; */
     color: aquamarine;
     margin-left: 20px;
 }
 
-.video-content i:hover{
-    /* font-size: 25px; */
+.video-icons-content i:hover{
+    font-size: 45px;
+    margin-left: 30px;
+    margin-bottom: 10px;
     color: rgb(1, 250, 167);
 }
 
 
 
-/* ------------- Video-content Start -------------*/
+/* ------------- Video-content End -------------*/
 
 
 
