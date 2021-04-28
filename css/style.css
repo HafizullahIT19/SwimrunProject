@@ -1,24 +1,18 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
 }
 
 a{
     text-decoration: none;
 }
 
-/* body{
-    color: rgb(236, 16, 16);
-} */
-/* h1,
-h2,
-h3,
-h4,
-h5{
-    font-family: "Raleway", Helvetica, sans-serif;
-} */
+.color {
+    color: #009688;
+}
 
 
 /* -------------------------- header Start -------------------------- */
@@ -90,6 +84,7 @@ h5{
 }
 
 
+
 /* ------------- Header bottom -------------*/
 
 .header-bottom{
@@ -97,7 +92,7 @@ h5{
     position: sticky;
     top: 0;
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: #040F59;
     padding: 0 30px;
 }
@@ -110,8 +105,7 @@ nav{
 }
 
 nav ul{
-    margin-top: 30px;
-
+    margin-top: 16px;
 }
 nav ul li{
     display: inline;
@@ -120,7 +114,6 @@ nav ul li{
 
 }
 nav ul li a{
-    font-size: 24px;
     color: rgb(255, 255, 255);
 }
 
@@ -133,19 +126,19 @@ nav ul li a:hover{
 }
 
 .header-bottom__search{
-    width: 30%;
+    width: 20%;
     height: 50px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(230, 11, 11); */
     float: right;
-    margin-top: 23px;
 }
 
 .header-bottom__search input{
-    width: 85%;
+    width: 80%;
     height: 30px;
     border: none;
-    display: inline-block;
-    margin-left: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    float: left;
 }
 
 
@@ -157,14 +150,23 @@ nav ul li a:hover{
     outline: none;
 }
 
-.header-bottom__search div{
-    display: inline-block;
-    margin-top: 10px;
+.header-bottom__search button{
+    width: 20%;
+    height: 50px;
+    border: none;
+    float: left;
+    background-color: #040F59;
+    color: aliceblue;
 }
-.fa-search{
+
+.header-bottom__search button:hover{
+    color: #009688;
+}
+
+.header-bottom__search button i{
     font-size: 22px ;
-    display: inline-block;
 }
+
 
 /* header End */
 
