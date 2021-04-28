@@ -17,39 +17,90 @@ a{
 
 /* -------------------------- header Start -------------------------- */
 
-
 /*------------- Header Top -------------*/
 .header-top{
     width: 100%;
-    height: 200px;
-    padding: 0 30px;
+    height: 170px;
+    padding: 0 30px ;
 }
 
 .header-top__logo{
-    width: 224px;
-    height: 57px;
+    width: 150px;
+    height: 150px;
     float: left;
-    margin-top: 100px;
+    background-color: rgb(184, 184, 184);
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid #ffffff;
+    border-radius:145px ;
+    -webkit-border-radius:145px ;
+    -moz-border-radius:145px ;
+    -ms-border-radius:145px ;
+    -o-border-radius:145px ;
+    position: relative;
+    z-index: 1;
+}
+
+.header-top__logo:hover{
+    border: 2px solid #009688;
 }
 
 .header-top__logo a img{
-    width: 224px;
-    height: 57px;
+    margin-top: 16px;
+    width: 80%;
+    height: 80%;
 }
 
 .header-top__icons-box{
-    width: 400px;
-    height: 57px;
-    float: right;
+    width: 350px;
+    height: 50px;
+    float: left;
     text-align: right;
-    margin-top: 100px;
-    /* background-color: chartreuse; */
+    margin-top: 106px;
+    background-color: rgb(184, 184, 184);
+    margin-left: -80px;
+    border: 2px solid #ffffff;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+
+.header-top__icons-box:hover{
+    border: 2px solid #009688;
 }
 
 .header-top__icons-box a i{
-    margin-top: 19px;
-    margin-left: 10px;
+    margin-top: 13px;
+    margin-right: 15px;
     font-size: 20px;
+    color: black;
+}
+
+.header-top__login-box{
+    width: 60px;
+    height: 50px;
+    float: right;
+    text-align: center;
+    margin-top: 103px;
+    background-color: rgb(184, 184, 184);
+    margin-left: -80px;
+    border: 2px solid #ffffff;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+
+.header-top__login-box:hover{
+    border: 2px solid #009688;
+}
+
+.header-top__login-box a i{
+    margin-top: 11px;
+    font-size: 25px;
     color: black;
 }
 
@@ -73,14 +124,9 @@ a{
 }
 
 /* sing in icon  */
-.fa-sign-in-alt{
-    margin-left: 30px !important;
-    color: black;
-    font-size: 25px !important;
-}
 
 .fa-sign-in-alt:hover{
-    color: cornsilk;
+    color: #009688;
 }
 
 
@@ -109,9 +155,9 @@ nav ul{
 }
 nav ul li{
     display: inline;
-    padding: 0 10px;
-    /* background-color: cornflowerblue; */
-
+    padding: 2px;
+    margin-right: 3px;    
+    /* background-color: cornflowerblue; */    
 }
 nav ul li a{
     color: rgb(255, 255, 255);
@@ -122,14 +168,15 @@ nav ul li a:hover{
 }
 
 .active{
-    color: rgb(134, 134, 134);
+    padding: 2px;
+    border-bottom: 2px solid #009688;
 }
 
 .header-bottom__search{
     width: 20%;
     height: 50px;
-    /* background-color: rgb(230, 11, 11); */
     float: right;
+    /* background-color: rgb(230, 11, 11); */
 }
 
 .header-bottom__search input{
@@ -139,6 +186,11 @@ nav ul li a:hover{
     padding-left: 10px;
     margin-top: 10px;
     float: left;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 
@@ -155,8 +207,11 @@ nav ul li a:hover{
     height: 50px;
     border: none;
     float: left;
+    text-align: left;
+    padding-left:7px ;
     background-color: #040F59;
     color: aliceblue;
+    /* background-color: rgb(1, 250, 167); */
 }
 
 .header-bottom__search button:hover{
