@@ -11,8 +11,8 @@ Work with other:
   https://replit.com/@WGissle/swimrunproject#index.html
 
 -----------------------------------------------------------------------------------
-Font Awesome:
-  https://fontawesome.com/start
+Material Design Iconic Font:
+  https://zavoloklom.github.io/material-design-iconic-font/icons.html
 
 animate.style:
   https://animate.style/

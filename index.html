@@ -4,58 +4,88 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <link rel="shortcut icon" href="img/logospring.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha512-rRQtF4V2wtAvXsou4iUAs2kXHi3Lj9NE7xJR77DE7GHsxgY9RTWy93dzMXgDIG8ToiRTD45VsDNdTiUagOFeZA==" crossorigin="anonymous" />
+        
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" href="img/logospring.png" />
         <title>Tomswimrun</title>
     </head>
     <body onload="">
-        <!-- <i class="far fa-address-card animate__animated animate__bounce"></i> -->
+        <!-- <i class="zmdi zmdi-whatsapp animate__animated animate__bounce"></i> -->
 
 
 <!----------------- Header Start --------------->
-            <!-- Header Top -->
-            <div class="header-top">
-                <div class="header-top__logo">
-                    <a href="">
-                        <img src="./img/logospring.png" alt="">
-                    </a>
-                </div>
-                <div class="header-top__icons-box">
-                    <a href="" ><i class="fab fa-instagram-square"></i></a>
-                    <a href="" ><i class="fab fa-facebook-square"></i></a>
-                    <a href="" ><i class="fab fa-behance-square"></i></a>
-                    <a href="" ><i class="fab fa-twitter-square"></i></a>
-                    <a href="" ><i class="fab fa-vimeo"></i></a>
-                    <a href="" ><i class="fab fa-vk"></i></a>
-                </div>
-                <div class="header-top__login-box">
-                    <a href="" ><i class="fas fa-sign-in-alt "></i></a>
+            <!-- Landing Layer Start -->
+            <div class="landing-layer">
+                <div class="container">
+                    <div class="landing-layer__logo">
+                        <a href="https://www.google.com/">
+                            <img class="landing-layer__logo-img" src="./img/logospring.png" alt="">
+                        </a>
+                    </div>
+                    <div class="landing-layer__social-menu">
+                        <ul>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-facebook-box"></i></a></li>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-behance"></i></a></li>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-vk"></i></a></li>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="landing-layer__client-area">
+                        <div class="user-area">
+                            <!-- Logged out -->
+                            <div class="logged-out">
+                                <button ><i class="zmdi zmdi-account"></i></button>
+                                <a href="#" >Login</a>
+                                <span> / </span>
+                                <a href="#" > Register</a>
+                            </div>
+                            <!-- Logged in -->
+                            <div class="logged-in">
+                                <a href="">
+                                    <img class="logged-in__img" src="./img/coding.png" alt="">
+                                </a>
+                                <a class="person-name" href="">
+                                    Hafizullah rahimi 
+                                    <i class="zmdi zmdi-caret-down"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        
-            <!-- Header Bottom -->
-            <div class="header-bottom">
-                <nav>
-                    <ul>
-                        <li><a href="" class="active">Hom</a></li>
-                        <li><a href="">Kalender 2018</a></li>
-                        <li><a href="">Reportage</a></li>
-                        <li><a href="">Om oss</a></li>
-                    </ul>
-                </nav>
-                <div class="header-bottom__search">
-                    <form method="GET" class="form" action="http://www.alltomswimrun.com">
-                        <input type="text" class="searchBox" >
-                        <button type="submit"><i class="fas fa-search"></i></button>
-                    </form>
-                </div> 
-            </div>
+            <!-- Landing Layer End -->
+
+            <div class="main-menu"> 
+                <div class="container">
+                    <header class="main-header">
+                        <nav>
+                            <ul>
+                                <li><a href="" class="active">Hom</a></li>
+                                <li><a href="">Kalender 2018</a></li>
+                                <li><a href="">Reportage</a></li>
+                                <li><a href="">Om oss</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-bottom__search">
+                            <form method="GET" class="form" action="http://www.alltomswimrun.com">
+                                <input type="text" class="searchBox" >
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div> 
+                    </header>
+                </div>
+            </div> 
 <!----------------- Header End --------------->
 
         <section>
-                <div class="video-container">
+                <!-- <div class="video-container">
                     <video autoplay muted loop id="video" class="video">
                         <source src="videos/uddevallaSwimrun.mp4" type="video/mp4">
                         Tomswimrun video.
@@ -67,9 +97,9 @@
                         <i id="play" class="fas fa-play-circle"></i>
                         <i id="volume" class="fas fa-volume-mute"></i>
                     </div>
-                </div>
+                </div> -->
 
-
+                <div class="container bColor"></div>
 
 
         </section>
