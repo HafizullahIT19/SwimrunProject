@@ -41,7 +41,7 @@
                         <div class="user-area">
                             <!-- Logged out -->
                             <div class="logged-out">
-                                <button ><i class="zmdi zmdi-account"></i></button>
+                                <button ><i class="fas fa-user"></i></button>
                                 <a href="#" >Login</a>
                                 <span> / </span>
                                 <a href="#" > Register</a>
@@ -62,26 +62,32 @@
             </div>
             <!-- Landing Layer End -->
 
-            <div class="main-menu"> 
+            <!-- Main Menu Start -->
+            <header class="main-menu">
                 <div class="container">
-                    <header class="main-header">
-                        <nav>
-                            <ul>
-                                <li><a href="" class="active">Hom</a></li>
-                                <li><a href="">Kalender 2018</a></li>
-                                <li><a href="">Reportage</a></li>
-                                <li><a href="">Om oss</a></li>
-                            </ul>
-                        </nav>
-                        <div class="header-bottom__search">
-                            <form method="GET" class="form" action="http://www.alltomswimrun.com">
-                                <input type="text" class="searchBox" >
-                                <button type="submit"><i class="fas fa-search"></i></button>
-                            </form>
-                        </div> 
-                    </header>
+                    <div class="header-logo">
+                        <img class="header-logo-img" src="./img/logospring.png" alt="">
+                        <button class="header-logo-icon"><i class="fas fa-home"></i></button>
+                    </div>
+                    <button class="header-menu-burger" onclick="showMenu()"><i class="fas fa-bars"></i></button>
+                    <button class="header-search-btn" onclick="showSearch()"><i class="fas fa-search"></i></button>
+                    <nav class="header">
+                        <ul class="header-menu" id="menu">
+                            <li class="header-menu-item"><a href="" class="header-menu-item-link active" >Hom</a></li>
+                            <li class="header-menu-item"><a href="" class="header-menu-item-link">Kalender 2018</a></li>
+                            <li class="header-menu-item"><a href="" class="header-menu-item-link">Reportage</a></li>
+                            <li class="header-menu-item"><a href="" class="header-menu-item-link">Om oss</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-search">
+                        <form method="GET" class="form" action="http://www.alltomswimrun.com">
+                            <input type="text" class="searchBox" >
+                            <button class="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div> 
                 </div>
-            </div> 
+            </header>
+            <!-- Main Menu End -->
 <!----------------- Header End --------------->
 
         <section>
