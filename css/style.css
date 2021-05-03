@@ -87,23 +87,19 @@
 }
 .bColor{
     background-color: #009688;
-    height: 300px;
 }
 .bColor4{
     background-color: #28aa90;
-    height: 300px;
+
 }
 .bColor3{
     background-color: #41c3a9;
-    height: 300px;
 }
 .bColor2{
     background-color: #67e9cf;
-    height: 300px;
 }
 .bColor1{
     background-color: #81ffe9;
-    height: 300px;
 }
 
 li {
@@ -123,6 +119,7 @@ a {
     -ms-transition: all .2s;
     -o-transition: all .2s;
 }
+
 
 
 b {
@@ -151,6 +148,9 @@ a:hover > b{
 /* width: 1200px */
 .container{
     width: 1200px;
+    height: 500px;
+    /* background-color: royalblue; */
+    padding: 0 10px;
 }
 
 /* width: 992px */
@@ -196,15 +196,16 @@ a:hover > b{
     width: 100%;
     height: 170px;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='170' preserveAspectRatio='none' viewBox='0 0 1440 170'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1420%26quot%3b)' fill='none'%3e%3crect width='1440' height='170' x='0' y='0' fill='rgba(13%2c 41%2c 60%2c 1)'%3e%3c/rect%3e%3cpath d='M21 170L191 0L411.5 0L241.5 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M239.60000000000002 170L409.6 0L714.1 0L544.1 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M511.20000000000005 170L681.2 0L768.2 0L598.2 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M756.8000000000001 170L926.8000000000001 0L1226.8000000000002 0L1056.8000000000002 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M1392 170L1222 0L1172.5 0L1342.5 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M1177.4 170L1007.4000000000001 0L936.9000000000001 0L1106.9 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M930.8 170L760.8 0L693.3 0L863.3 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M714.1999999999999 170L544.1999999999999 0L317.69999999999993 0L487.69999999999993 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M1272.1700769664699 170L1440 2.1700769664699635L1440 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M0 170L167.82992303353004 170L 0 2.1700769664699635z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1420'%3e%3crect width='1440' height='170' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1421'%3e%3cstop stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1422'%3e%3cstop stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
-    
+    /* border-bottom: #000000 solid 1px ; */
 }
 
-.landing-layer__logo{
+.landing-layer-logo{
     width: 150px;
     height: 150px;
     float: left;
     text-align: center;
     margin-top: 10px;
+    margin-left: 70px;
     border: 2px solid whitesmoke;
     border-radius:145px ;
     -webkit-border-radius:145px ;
@@ -219,67 +220,61 @@ a:hover > b{
 
 
 
-.landing-layer__logo-img{
+.landing-layer-logo-img{
     margin-top: 16px;
     width: 80%;
     height: 80%;
 }
 
-.landing-layer__logo:hover{
+.landing-layer-logo:hover{
     border: 2px solid #009688;
     box-shadow: 0 0px 15px 0 whitesmoke;
 }
 
-.landing-layer__social-menu{
-    width: 320px;
-    height: 50px;
+.landing-layer-social-menu{
     float: left;
     text-align: right;
-    margin-top: 100px;
-    margin-left: -80px;
+    margin-top: 110px;
     /* background-color: rgb(184, 184, 184); */
 }
 
-
-.landing-layer__social-menu i{
-    margin-top: 13px;
-    margin-right: 15px;
-    font-size: 20px;
-    color: whitesmoke;
-    /* background-color: transparent !important; */
+.landing-layer-social-menu ul{
+    padding: 0;
 }
 
-.landing-layer__social-menu i:hover{
+.social-menu-item{
+    margin-left: 15px;
+}
+
+.social-menu-item i{
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: transparent !important;
+}
+
+.social-menu-item i:hover{
     color: #009688;
 }
 
-.landing-layer__client-area{
-    width: 300px;
-    height: 100px;
+/* Client Area Start*/
+
+.landing-layer-client-area{
     float: right;
-    text-align: center;
-    margin-top: 53px;
-    margin-left: -80px;
+    margin-top: 80px;
+    margin-right: 70px;
     /* background-color: rgb(211, 208, 21); */
 }
 
 
 /* ---- logged-out ---- */
 
-.logged-out{
+.logged-out {
+    margin-top: 30px;
     /* display: none; */
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    margin-top: 54px;
-}
-
-.logged-out button{
-    margin-bottom: -1px;
 }
 
 .logged-out i{
-    font-size: 23px;
+    font-size: 20px;
     color: whitesmoke;
 }
 .logged-out a, span{
@@ -296,10 +291,6 @@ a:hover > b{
 
 .logged-in{
     display: none;
-    width: 180px;
-    height: 50px;
-    text-align: center;
-    margin-top: 30px;
 }
 
 .logged-in__img{
@@ -318,7 +309,8 @@ a:hover > b{
 
 .person-name{
     float: right;
-    margin-top: 25px;
+    margin-top: 28px;
+    margin-left: 8px;
     font-weight: 600;
     color: whitesmoke;
 }
@@ -349,6 +341,7 @@ a:hover > b{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='170' preserveAspectRatio='none' viewBox='0 0 1440 170'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1420%26quot%3b)' fill='none'%3e%3crect width='1440' height='170' x='0' y='0' fill='rgba(13%2c 41%2c 60%2c 1)'%3e%3c/rect%3e%3cpath d='M21 170L191 0L411.5 0L241.5 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M239.60000000000002 170L409.6 0L714.1 0L544.1 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M511.20000000000005 170L681.2 0L768.2 0L598.2 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M756.8000000000001 170L926.8000000000001 0L1226.8000000000002 0L1056.8000000000002 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M1392 170L1222 0L1172.5 0L1342.5 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M1177.4 170L1007.4000000000001 0L936.9000000000001 0L1106.9 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M930.8 170L760.8 0L693.3 0L863.3 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M714.1999999999999 170L544.1999999999999 0L317.69999999999993 0L487.69999999999993 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M1272.1700769664699 170L1440 2.1700769664699635L1440 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M0 170L167.82992303353004 170L 0 2.1700769664699635z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1420'%3e%3crect width='1440' height='170' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1421'%3e%3cstop stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1422'%3e%3cstop stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
     position: sticky;
     z-index: 6;
+    /* border-top: #000000 solid 4px; */
 }
 
 .header-logo{
@@ -415,11 +408,11 @@ a:hover > b{
 
 
 .header-search{
-    height: 50px;
     width: 300px;
     float: right;
     /* background-color: rgb(230, 11, 11); */
 }
+
 
 .header-search input{
     width: 90%;
@@ -446,12 +439,11 @@ a:hover > b{
 
 .search-btn{
     width: 10%;
-    height: 50px;
     border: none;
     float: right;
     text-align: left;
     padding-left:7px ;
-    margin-top: 1px;
+    margin-top: 13px;
 }
 
 .search-btn i{
@@ -466,11 +458,10 @@ a:hover > b{
 
 .header-menu-burger, .header-search-btn{
     display: none;
-    float: right;
-    /* background-color: white; */
+    float: left;
+    margin-left: 40px;
     border: none;
     line-height: 50px;
-    /* margin-top: 32px; */
 }
 
 .header-menu-burger i,.header-search-btn i{
@@ -482,14 +473,46 @@ a:hover > b{
     display: inline-block !important;
 }
 
+@media (max-width:991.98px){
+    .landing-layer-client-area{
+        margin-right: 10px;
+    }
+    .landing-layer-logo{
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width:767.98px){
+    .header-menu-burger{
+        display: inline-block;
+    }
+    .header-menu{
+        display: none;
+        width: 100%;
+        height: 340px;
+        margin-top: 50px;
+        padding: 10px 30px;
+        position: absolute;
+        right: 0;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='170' preserveAspectRatio='none' viewBox='0 0 1440 170'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1420%26quot%3b)' fill='none'%3e%3crect width='1440' height='170' x='0' y='0' fill='rgba(13%2c 41%2c 60%2c 1)'%3e%3c/rect%3e%3cpath d='M21 170L191 0L411.5 0L241.5 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M239.60000000000002 170L409.6 0L714.1 0L544.1 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M511.20000000000005 170L681.2 0L768.2 0L598.2 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M756.8000000000001 170L926.8000000000001 0L1226.8000000000002 0L1056.8000000000002 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M1392 170L1222 0L1172.5 0L1342.5 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M1177.4 170L1007.4000000000001 0L936.9000000000001 0L1106.9 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M930.8 170L760.8 0L693.3 0L863.3 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M714.1999999999999 170L544.1999999999999 0L317.69999999999993 0L487.69999999999993 170z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3cpath d='M1272.1700769664699 170L1440 2.1700769664699635L1440 170z' fill='url(%23SvgjsLinearGradient1421)'%3e%3c/path%3e%3cpath d='M0 170L167.82992303353004 170L 0 2.1700769664699635z' fill='url(%23SvgjsLinearGradient1422)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1420'%3e%3crect width='1440' height='170' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1421'%3e%3cstop stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1422'%3e%3cstop stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(0%2c 88%2c 80%2c 0.65)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+
+    }
+
+    .header-menu-item-link{
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #aab6b5;
+    }
+}
 
 
 
 
 
 
-
-/* Main Menu */
+/* End of Main Menu */
 
 /* -------------------------- section Start  -------------------------- */
 
