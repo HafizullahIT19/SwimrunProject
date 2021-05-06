@@ -1,10 +1,35 @@
 
+//Loading box 
+const loadingBox = document.querySelector('#loadingBox')
+
+const loading = lottie.loadAnimation({
+    container: loadingBox, // the dom element that will contain the animation
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'https://assets4.lottiefiles.com/packages/lf20_Q2FX6B.json' // the path to the animation json
+});
+//End of loading box 
 
 
 
 
 
 
+
+
+
+
+//Onload
+window.onload = () => {
+    loadingBox.style.display = 'none';
+    console.log('page is fully loaded');
+};
+//End of onload
+
+
+
+//Show menu
 function showMenu() {
     console.log('Menu');
     const menu = document.getElementById('menu');
@@ -14,25 +39,14 @@ function showMenu() {
         menu.className = 'header-menu';
     }
 }
+//End of show menu
 
-// ----------------- Scroll Event Start -------------------
-const iconGoesUp = document.querySelector('#iconGoesUp');
 
-//onscroll Event
-window.addEventListener('scroll', function () {
-    const scrollY = window.scrollY;
 
-    if (scrollY > 332) {
-        iconGoesUp.style.display = 'inline';
-        // console.log('storeeeee');
-    } else {
-        iconGoesUp.style.display = 'none';
-        // console.log('mindreeeee');
-    }
-    // console.log(scrollY);
-});
 
-// Scroll Event End
+
+
+
 
 // ----------------- Video Start -------------------
 
@@ -78,3 +92,36 @@ const volumeBtn = document.querySelector('#volume');
 // ----------------- Login Btn Start -------------------
 
 // Login Btn End
+
+
+
+
+// ----------------- Footer start ----------------- 
+
+// Button Goes Up 
+const btnGoesUp = document.querySelector('#btnGoesUp');
+const landingLayer = document.querySelector("#landing-layer");
+
+//Link Learnig scrollIntoView: https://www.instagram.com/p/CJWR1oPA5qe/?utm_source=ig_web_copy_link
+
+//onscroll Event
+window.addEventListener('scroll', function () {
+    const scrollY = window.scrollY;
+    if (scrollY > 332) {
+        btnGoesUp.style.display = 'inline';
+        // console.log('storeeeee');
+        btnGoesUp.addEventListener('click', ()=>{
+            console.log('helllo');
+            landingLayer.scrollIntoView({
+                behavior: 'smooth',
+            })
+        })
+    } else {
+        btnGoesUp.style.display = 'none';
+        // console.log('mindreeeee');
+    }
+    // console.log(scrollY);
+});
+// End Button Goes Up 
+
+//----------------- End of footer ----------------- 
