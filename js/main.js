@@ -11,21 +11,44 @@ const loading = lottie.loadAnimation({
 });
 //End of loading box 
 
-
-
-
-
-
-
-
-
-
-//Onload
+//Onload Funtion
 window.onload = () => {
     loadingBox.style.display = 'none';
     console.log('page is fully loaded');
 };
 //End of onload
+window.addEventListener('scroll', function () {
+    const scrollY = window.scrollY;
+    const logoSmall = document.querySelector("#headerLogo");
+    const menu = document.querySelector("#menu");
+    
+    if (scrollY > 199.98) {
+        logoSmall.className = "header-logo dis-inline animate__animated animate__backInLeft"
+        menu.className = "header ml-37px"
+        // console.log('storeeeee');
+    } else {
+        // logoSmall.className = "header-logo animate__animated animate__backOutLeft"
+        
+        if(logoSmall.className === "header-logo dis-inline animate__animated animate__backInLeft"){
+            logoSmall.className = "header-logo dis-inline animate__animated animate__backOutLeft"
+            // logoSmall.style.display = 'none';
+            setTimeout(()=>{
+                logoSmall.className = "header-logo"
+                menu.className = "header"
+                console.log('time');
+            },300)
+        }
+        // menu.style.marginLeft = "0";
+        // console.log('mindreeeee');
+    }
+    console.log(scrollY);
+});
+
+// Show Logo
+    
+// End of show Logo
+
+
 
 
 
@@ -104,7 +127,7 @@ const landingLayer = document.querySelector("#landing-layer");
 
 //Link Learnig scrollIntoView: https://www.instagram.com/p/CJWR1oPA5qe/?utm_source=ig_web_copy_link
 
-//onscroll Event
+//onscroll Event For Btn goes up
 window.addEventListener('scroll', function () {
     const scrollY = window.scrollY;
     if (scrollY > 332) {

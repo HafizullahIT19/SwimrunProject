@@ -237,7 +237,6 @@ a:hover > b{
 }
 
 
-
 .landing-layer-logo-img{
     margin-top: 16px;
     width: 80%;
@@ -246,7 +245,7 @@ a:hover > b{
 
 .landing-layer-logo:hover{
     border: 2px solid #009688;
-    box-shadow: 0 0px 15px 0 whitesmoke;
+    box-shadow: 0 0px 15px 0 #009688;
 }
 
 .landing-layer-social-menu{
@@ -356,12 +355,13 @@ a:hover > b{
     height: 50px;
     position: sticky;
     top: -1px;
-    z-index: 6;
+    z-index: 100;
     background-image: url(../img/Hexagon.svg);
     /* border-top: #000000 solid 4px; */
 }
 
 .header-logo{
+    display: none;
     width: 40px;
     height: 40px;
     padding: 5px;
@@ -376,6 +376,10 @@ a:hover > b{
     -moz-border-radius: 145px;
     -ms-border-radius: 145px;
     -o-border-radius: 145px;
+}
+
+.dis-inline{
+    display: inline;
 }
 
 .header-logo-img{
@@ -399,8 +403,12 @@ a:hover > b{
 
 .header{
     float: left;
-    margin-left: 37px;
+    /* margin-left: 37px; */
     /* background-color: chartreuse; */
+}
+
+.ml-37px{
+    margin-left: 37px;
 }
 
 
@@ -635,6 +643,17 @@ a:hover > b{
     top: 0;
     left: 0;
     z-index: 10;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* TODO intro-item-caption:hover */
+.intro-item-caption:hover{
+    box-shadow: 0 0px 15px 5px #009688;
+    border: solid 2px #009688;
 }
 
 .caption-title{
@@ -667,7 +686,7 @@ a:hover > b{
     margin-right: 20px;
     color: #ffffff;
 }
-
+/* TODO img-bg */
 .img-bg{
     position: absolute;
     top: 0;
@@ -675,7 +694,15 @@ a:hover > b{
     right: 0;
     left: 0;
     z-index: 1;
+    /* background-color: #81ffe9; */
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
+
 
 /* margin 10px */
 .mt-10px{
@@ -732,6 +759,7 @@ a:hover > b{
         margin-bottom: 10px;
     }
 }
+
 /* End of intro */
 
 
@@ -852,14 +880,19 @@ a:hover > b{
 }
 
 .btn-goes-up i{
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(131, 134, 134);
 }
 
 .btn-goes-up i:hover{
-    font-size: 40px;
-    color: teal;
+    color: #009688;
 }
+
+/* .btn-goes-up:hover{
+    background-color: #009688;
+    border-radius: 100%;
+    margin: 0px -2px;
+} */
 /* End of Btn goes up */
 
 

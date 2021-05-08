@@ -16,12 +16,6 @@
     </head>
     <body>
 
-
-
-
-
-        <!-- <i class="zmdi zmdi-whatsapp animate__animated animate__bounce"></i> -->
-
     <!----------------- Loading --------------->
         <div id="loadingBox" class="loading-box"></div>
     <!----------------- End of loading --------------->
@@ -32,12 +26,12 @@
             <!-- PART Landing Layer Start --> 
             <div class="landing-layer" id="landing-layer">
                 <div class="container">
-                    <div class="landing-layer-logo">
+                    <div class="landing-layer-logo animate__animated animate__backInLeft">
                         <a href="https://www.google.com/">
                             <img class="landing-layer-logo-img" src="./img/logospring.png" alt="">
                         </a>
                     </div>
-                    <div class="landing-layer-social-menu">
+                    <div class="landing-layer-social-menu animate__animated animate__backInUp animate__delay-1s" id="socialMenu">
                         <ul>
                             <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
                             <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
@@ -47,7 +41,7 @@
                             <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-vimeo"></i></a></li>
                         </ul>
                     </div>
-                    <div class="landing-layer-client-area">
+                    <div class="landing-layer-client-area animate__animated animate__backInDown" id="clientArea">
                         <div class="user-area">
                             <!-- Logged out -->
                             <div class="logged-out">
@@ -75,13 +69,13 @@
             <!-- PART Main Menu Start --> 
             <header class="main-menu"> 
                 <div class="container">
-                    <div class="header-logo">
+                    <div class="header-logo" id="headerLogo">
                         <img class="header-logo-img" src="./img/logospring.png" alt="">
-                        <button class="header-logo-icon"><i class="fas fa-home"></i></button>
+                        <button class="header-logo-icon "><i class="fas fa-home animate__animated animate__flash animate__delay-1s" ></i></button>
                     </div> 
                     <button class="header-menu-burger" onclick="showMenu()"><i class="fas fa-bars"></i></button>
                     <button class="header-search-btn" onclick="showSearch()"><i class="fas fa-search"></i></button>
-                    <nav class="header">
+                    <nav class="header" id="menu">
                         <ul class="header-menu" id="menu">
                             <li class="header-menu-item"><a href="" class="header-menu-item-link active" >Hom</a></li>
                             <li class="header-menu-item"><a href="" class="header-menu-item-link">Kalender 2018</a></li>
