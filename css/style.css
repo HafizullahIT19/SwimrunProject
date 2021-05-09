@@ -86,6 +86,10 @@
     color: #009688 !important;
 }
 
+.color-black{
+    /* background-color: yellow; */
+    color: black;
+}
 
 li {
     list-style-type: none;
@@ -95,6 +99,11 @@ li {
 button{
     border: none;
     background-color: Transparent;
+}
+
+i{
+    margin-right: 5px;
+    color: #009688;
 }
 
 a { 
@@ -109,23 +118,8 @@ a {
 
 b{
     font-weight: 700;
-    margin: 0 3px;
-    /* background-color: brown; */
-    transition: all .2s;
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -ms-transition: all .2s;
-    -o-transition: all .2s;
 }
-.text-b{
-    margin: 0 3px;
-    font-weight: 900;
-    transition: all .2s;
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -ms-transition: all .2s;
-    -o-transition: all .2s;
-}
+
 
 a:hover{
     color: #009688;
@@ -523,20 +517,17 @@ a:hover > b{
 
 
 
-/* -------------------------- Content Start  -------------------------- */
-.content{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: thistle;
-}
+/* -------------------------- main Start  -------------------------- */
 
+
+/* ------------------- Content Start ------------------- */
+.content{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    /* background-color: thistle; */
+}
 
 /* ------------- Intro Start -------------*/
-.intro-h-600px i{
-    color: #009688;
-    margin-right: 3px;
-}
-
 .intro-row {
     width: 100%;
 }
@@ -749,9 +740,146 @@ a:hover > b{
 }
 
 /* End of intro */
+/* End of content  */
+
+/* ------------------- Container Start ------------------- */
+
+/* Main-news*/
+.container{
+    width: 100%;
+    margin-top: 50px;
+}
+/* .container i{
+    margin-right: 5px;
+} */
+
+.main{
+    float: left;
+    width: calc(calc(200%/3) - 25px);
+    margin-right: 25px;
+}
+
+.main-news{
+    margin-bottom: 20px;
+}
+.main-news-img{
+    width: 100%;
+}
+
+/* main-crypto-maning-news */
+.main-news-w-50{
+    width: calc(50% - 25px) ;
+    float: left;
+    margin-right: 25px;
+}
+
+.main-news-w-50:last-of-type{
+    margin-right: 0;
+}
+
+/* End of main*/
 
 
+/* ------ Sidebar Start ------ */
+.sidebar{
+    float: right;
+    width: calc(calc(100% / 3) - 25px) ;
+    margin-left: 25px;
+}
 
+.sidebar-item{
+    width: 100%;
+    margin-bottom: 40px;
+}
+/* sidebar-list */
+/* .sidebar-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-list>li{
+    padding: 15px 0;
+    background-color: #F9B500 !important;
+    border: 1px solid #ffffff;
+    text-align: center;
+} */
+
+/* POPULAR POSTS */
+.popular-post{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.popular-post-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.popular-post-title{
+    float: right;
+    margin-left: 20px;
+    width: calc(100% - 120px);
+}
+
+.popular-post-title h3 a b{
+    font-size: 18px;
+}
+
+/* NEWSLETTER */
+.subscraibe-form{
+    margin-top: 20px;
+    border: none;
+}
+
+.subscraibe-form-text{
+    padding: 13px 58px 13px 13px;
+    float: left;
+    border: 1px solid #f9b500;
+    width: calc(100% - 73px);
+}
+.subscraibe-form-text:focus{
+    outline-color: #f9b500;
+}
+
+.subscraibe-form button{
+    float: right;
+    width: 45px;
+    height: 43px;
+    margin-top: -44px;
+    margin-right: .5px;
+    border: none;
+    text-align: center;
+    background-color: #f9b500;
+}
+
+.subscraibe-form button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* End of Sidebar*/
+
+@media(max-width:991.98px) {
+    .main{
+        width: 100%;
+        float: none;
+    }
+    .sidebar{
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:575.98px){
+    .main-news-w-50{
+        width: 100%;
+        float: none;
+    }
+}
+
+/* End of container */
 
 
 
@@ -845,15 +973,7 @@ a:hover > b{
 /* ------------- Video-content End -------------*/
 
 
-
-
-
-
-
-
-
-
-/* -------------------------- End of content  -------------------------- */
+/* -------------------------- End of main  -------------------------- */
 
 
 /* -------------------------- Footer Start  -------------------------- */
