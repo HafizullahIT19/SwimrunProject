@@ -86,22 +86,6 @@
     color: #009688 !important;
 }
 
-.bColor{
-    background-color: #009688;
-}
-.bColor4{
-    background-color: #28aa90;
-
-}
-.bColor3{
-    background-color: #41c3a9;
-}
-.bColor2{
-    background-color: #67e9cf;
-}
-.bColor1{
-    background-color: #81ffe9;
-}
 
 li {
     list-style-type: none;
@@ -112,6 +96,7 @@ button{
     border: none;
     background-color: Transparent;
 }
+
 a { 
     text-decoration: none;
     transition: all .2s;
@@ -120,7 +105,6 @@ a {
     -ms-transition: all .2s;
     -o-transition: all .2s;
 }
-
 
 
 b{
@@ -143,31 +127,30 @@ b{
     -o-transition: all .2s;
 }
 
-
-
-/* a:hover{
+a:hover{
     color: #009688;
 }
 
 a:hover > b{
     color: #009688;
-}  */
+}
 
 
-/* -------------------------- @Media for Container Start -------------------------- */
+
+/* -------------------------- @Media for App Start -------------------------- */
 
 
 /* width: 1200px */
-.container{
+.app{
     width: 1200px;
-    /* height: 1000px; */
-    /* background-color: royalblue; */
+    /* height: 1000px;
+    background-color: royalblue; */
     padding: 0 10px;
 }
 
 /* width: 992px */
 @media (max-width:1199.98px) {
-    .container{
+    .app{
         width: 992px;
     }
 }
@@ -175,14 +158,14 @@ a:hover > b{
 
 /* width: 768px */
 @media (max-width:991.98px) {
-    .container{
+    .app{
         width: 768px;
     }
 }
 
 /* width: 576px */
 @media (max-width:767.98px) {
-    .container{
+    .app{
         width: 576px;
     }
 }
@@ -190,13 +173,13 @@ a:hover > b{
 
 /* Width less than: 576px */
 @media (max-width:575.98px) {
-    .container{
+    .app{
         width: calc(100% - 30px);
         padding: 0 15px;
     }
 }
 
-/* @Media for Container End */
+/* @Media for app End */
 
 
 /* -------------------------- loading box start-------------------------- */
@@ -429,6 +412,7 @@ a:hover > b{
 
 .header-menu-item-link:hover , .active{
     border-bottom: 2px solid #009688;
+    color: whitesmoke !important;
 }
 
 
@@ -439,6 +423,9 @@ a:hover > b{
 }
 
 
+.header-search form{
+    border: none;
+}
 .header-search input{
     width: 90%;
     height: 30px;
@@ -446,11 +433,11 @@ a:hover > b{
     padding-left: 10px;
     margin-top: 10px;
     float: left;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 
@@ -540,6 +527,7 @@ a:hover > b{
 .content{
     margin-top: 30px;
     margin-bottom: 30px;
+    background-color: thistle;
 }
 
 
@@ -790,7 +778,7 @@ a:hover > b{
 
 
 /* ------------- Video-content Start -------------*/
-.video-container{
+.video-app{
     margin: 30px auto 30px auto;
     margin-top: 10px;
     width: 80%;

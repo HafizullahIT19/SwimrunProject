@@ -29,3 +29,7 @@ main-menu
 
 secrion
     container
+
+.subscraibe-form-text:focus{
+    outline-color: #f9b500;
+}
