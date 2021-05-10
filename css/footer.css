@@ -1,0 +1,79 @@
+
+/* -------------------------- Footer Start  -------------------------- */
+.footer{
+    background-image: url("../img/footer.svg");
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+
+.footer-row{
+    width: 100%;
+    /* background-color: rgba(25, 25, 25, .1); */
+}
+
+.footer-col{
+    float: left;
+    margin-right: 30px;
+    width: calc(calc(100% / 3) - 30px);
+}
+
+.footer-p{
+    color:#dfdfdf;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.footer-p a {
+    color: #cccccc;
+    font-size: 16px;
+}
+
+.footer-p a:hover {
+    color: #009688;
+}
+.footer-p-padding-20px{
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+.footer-section-title{
+    color: #009688;
+    padding: 30px 0 10px 0 ;
+}
+
+.footer-line{
+    background-color: rgb(175, 175, 175, .2);
+    height: 1px;
+    margin-top: 20px;
+}
+
+@media (max-width: 767.98px) {
+    .footer-col{
+        float: none;
+        /* padding: 15px; */
+        width:calc(100% - 30px) ;
+        margin-right: 0;
+    }
+}
+
+/* --------------------------  End of footer  -------------------------- */
+
+/* --------------------------  Btn-goes-up Start  -------------------------- */
+.btn-goes-up{
+    display: none;
+    position: fixed;
+    bottom: 17px;
+    right: 10px;
+    z-index: 100;
+}
+
+.btn-goes-up i{
+    font-size: 30px;
+    color: rgb(131, 134, 134);
+}
+
+.btn-goes-up i:hover{
+    color: #009688;
+}
+/* --------------------------  End of btn-goes-up  -------------------------- */
+

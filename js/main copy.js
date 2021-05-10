@@ -3,11 +3,11 @@
 const loadingBox = document.querySelector('#loadingBox')
 
 const loading = lottie.loadAnimation({
-    container: loadingBox, 
+    container: loadingBox, // the dom element that will contain the animation
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: 'https://assets4.lottiefiles.com/packages/lf20_Q2FX6B.json' 
+    path: 'https://assets4.lottiefiles.com/packages/lf20_Q2FX6B.json' // the path to the animation json
 });
 //End of loading box 
 
@@ -15,6 +15,7 @@ const loading = lottie.loadAnimation({
 //Onload Funtion
 window.onload = () => {
     loadingBox.style.display = 'none';
+    // console.log('page is fully loaded');
 };
 //End of onload
 
@@ -27,6 +28,7 @@ window.addEventListener('scroll', function () {
     if (scrollY > 199.98) {
         logoSmall.className = "header-logo show animate__animated animate__backInLeft"
         menu.className = "header-menu ml-37px"
+        // console.log('storeeeee');
     } else {
         if(logoSmall.className === "header-logo show animate__animated animate__backInLeft"){
             logoSmall.className = "header-logo show animate__animated animate__backOutLeft"
@@ -34,12 +36,15 @@ window.addEventListener('scroll', function () {
             setTimeout(()=>{
                 logoSmall.className = "header-logo"
                 menu.className = "header-menu"
-
+                // console.log('time');
             },300)
         }
+        // menu.style.marginLeft = "0";
+        // console.log('mindreeeee');
     }
-
+    // console.log(scrollY);
 });
+
 // End of show Logo
 
 
