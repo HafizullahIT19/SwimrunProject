@@ -516,9 +516,7 @@ a:hover > b{
 /* -------------------------- End of header  -------------------------- */
 
 
-
 /* -------------------------- main Start  -------------------------- */
-
 
 /* ------------------- Content Start ------------------- */
 .content{
@@ -856,11 +854,11 @@ a:hover > b{
 .subscraibe-form-text{
     padding: 13px 58px 13px 13px;
     float: left;
-    border: 1px solid #f9b500;
+    border: 1px solid #009688;
     width: calc(100% - 73px);
 }
 .subscraibe-form-text:focus{
-    outline-color: #f9b500;
+    outline-color: #009688;
 }
 
 .subscraibe-form button{
@@ -871,7 +869,7 @@ a:hover > b{
     margin-right: .5px;
     border: none;
     text-align: center;
-    background-color: #f9b500;
+    background-color: #009688;
 }
 
 .subscraibe-form button:hover{
@@ -902,102 +900,67 @@ a:hover > b{
 
 /* End of container */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------- Video-content Start -------------*/
-.video-app{
-    margin: 30px auto 30px auto;
-    margin-top: 10px;
-    width: 80%;
-    height: 570px;
-    position: relative;
-    z-index: 3;
-    /* background-color: #009688; */
-}
-
-.video{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border: aquamarine 2px solid;
-    border-radius: 27px;
-    -webkit-border-radius: 27px;
-    -moz-border-radius: 27px;
-    -ms-border-radius: 27px;
-    -o-border-radius: 27px;
-}
-.video-content{
-    display: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    padding-top: 120px;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.5);
-    border: rgb(0, 0, 0) 2px solid;
-    border-radius: 27px;
-    -webkit-border-radius: 27px;
-    -moz-border-radius: 27px;
-    -ms-border-radius: 27px;
-    -o-border-radius: 27px;
-}
-
-.video-icons-content{
-    width: 100%;
-    height: 10%;
-    position: absolute;
-    bottom: 40px;
-    text-align: center;
-    padding: 40px;
-    /* background: rgba(231, 85, 85, 0.5); */
-}
-
-
-
-.video-icons-content i{
-    font-size: 35px;
-    float: right;
-    /* padding: 15px; */
-    color: aquamarine;
-    margin-left: 20px;
-}
-
-.video-icons-content i:hover{
-    font-size: 45px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    color: rgb(1, 250, 167);
-}
-
-/* ------------- Video-content End -------------*/
-
-
 /* -------------------------- End of main  -------------------------- */
 
-
 /* -------------------------- Footer Start  -------------------------- */
+
+.footer{
+    background-image: url("../img/footer.svg");
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+
+.footer-row{
+    width: 100%;
+    /* background-color: rgba(25, 25, 25, .1); */
+}
+
+.footer-col{
+    float: left;
+    margin-right: 30px;
+    width: calc(calc(100% / 3) - 30px);
+}
+
+.footer-p{
+    color:#dfdfdf;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.footer-p a {
+    color: #cccccc;
+    font-size: 16px;
+}
+
+.footer-p a:hover {
+    color: #009688;
+}
+.footer-p-padding-20px{
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+.footer-section-title{
+    color: #009688;
+    padding: 30px 0 10px 0 ;
+}
+
+.footer-line{
+    background-color: rgb(175, 175, 175, .2);
+    height: 1px;
+    margin-top: 20px;
+}
+
+@media (max-width: 767.98px) {
+    .footer-col{
+        float: none;
+        /* padding: 15px; */
+        width:calc(100% - 30px) ;
+        margin-right: 0;
+    }
+}
+
+/* --------------------------  End of footer  -------------------------- */
 
 /* ------------- Btn goes up -------------*/
 .btn-goes-up{
@@ -1017,54 +980,6 @@ a:hover > b{
     color: #009688;
 }
 
-/* .btn-goes-up:hover{
-    background-color: #009688;
-    border-radius: 100%;
-    margin: 0px -2px;
-} */
 /* End of Btn goes up */
 
-
-.footer-bottom {
-    position: relative;
-    bottom: 0;
-}
-
-
-
-
-.block {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    /* background-color: black; */
-    background-color: #0E2A47;
-    width: 100%;
-    height: 75px;
-    text-align: center;
-    color: white;
-    font-size: 9px;
-}
-
-.namn {
-    padding-top: 12px;
-    color: whitesmoke;
-}
-
-.plus {
-    font-size: 14px;
-}
-
-.sajjan {
-    color: rgb(122, 122, 122);
-    font-size: 10px; 
-}
-
-.sajjan:hover {
-    color: white;
-    transition: 0.25s;
-}
-
-
-/* End of footer*/
 
