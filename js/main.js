@@ -26,18 +26,18 @@ window.addEventListener('scroll', function () {
     const menu = document.querySelector("#menu");
     
     if (scrollY > 199.98) {
-        logoSmall.className = "header-logo dis-inline animate__animated animate__backInLeft"
-        menu.className = "header ml-37px"
+        logoSmall.className = "header-logo show animate__animated animate__backInLeft"
+        menu.className = "header-menu ml-37px"
         // console.log('storeeeee');
     } else {
         // logoSmall.className = "header-logo animate__animated animate__backOutLeft"
         
-        if(logoSmall.className === "header-logo dis-inline animate__animated animate__backInLeft"){
-            logoSmall.className = "header-logo dis-inline animate__animated animate__backOutLeft"
+        if(logoSmall.className === "header-logo show animate__animated animate__backInLeft"){
+            logoSmall.className = "header-logo show animate__animated animate__backOutLeft"
             // logoSmall.style.display = 'none';
             setTimeout(()=>{
                 logoSmall.className = "header-logo"
-                menu.className = "header"
+                menu.className = "header-menu"
                 console.log('time');
             },300)
         }
@@ -54,13 +54,12 @@ window.addEventListener('scroll', function () {
 
 
 //Show menu
-function showMenu() {
-    console.log('Menu');
-    const menu = document.getElementById('menu');
-    if (menu.className === 'header-menu') {
-        menu.className += ' show';
-    } else {
-        menu.className = 'header-menu';
+const showMenu = () =>{
+    const menu = document.getElementById("menu");
+    if(menu.className ==="header-menu"){
+        menu.className += " show"
+    }else{
+        menu.className = "header-menu"
     }
 }
 //End of show menu
