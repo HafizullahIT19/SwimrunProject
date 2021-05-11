@@ -16,7 +16,6 @@ window.addEventListener('scroll', function () {
             setTimeout(()=>{
                 logoSmall.className = "header-logo"
                 menu.className = "header-menu"
-
             },300)
         }
     }
