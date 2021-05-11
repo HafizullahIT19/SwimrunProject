@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha512-rRQtF4V2wtAvXsou4iUAs2kXHi3Lj9NE7xJR77DE7GHsxgY9RTWy93dzMXgDIG8ToiRTD45VsDNdTiUagOFeZA==" crossorigin="anonymous" />
+        
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/404.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        <link rel="shortcut icon" href="img/logospring.png" />
+        <title>404</title>
+    </head>
+    <body>
+
+<!----------------- Header Start --------------->
+        <div class="landing-layer" id="landing-layer">
+                <div class="app">
+                    <div class="landing-layer-logo animate__animated animate__backInLeft">
+                        <a href="https://www.google.com/">
+                            <img class="landing-layer-logo-img" src="./img/logospring.png" alt="">
+                        </a>
+                    </div>
+                    <div class="landing-layer-social-menu animate__animated animate__backInUp animate__delay-1s" id="socialMenu">
+                        <ul>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-facebook-box"></i></a></li>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-behance"></i></a></li>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-vk"></i></a></li>
+                            <li class="social-menu-item"><a href="#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="landing-layer-client-area animate__animated animate__backInDown" id="clientArea">
+                        <div class="user-area">
+                            <!-- Logged out -->
+                            <div class="logged-out">
+                                <button ><i class="fas fa-user"></i></button>
+                                <a href="#" >Login</a>
+                                <span> / </span>
+                                <a href="#" > Register</a>
+                            </div>
+                            <!-- Logged in -->
+                            <div class="logged-in">
+                                <a href="">
+                                    <img class="logged-in__img" src="./img/coding.png" alt="">
+                                </a>
+                                <a class="person-name" href="">
+                                    Hafizullah rahimi 
+                                    <i class="zmdi zmdi-caret-down"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <header class="main-menu">
+                <div class="app"> 
+                    <div class="header-logo" id="headerLogo">
+                        <img class="header-logo-img" src="./img/logospring.png" alt="">
+                        <button class="header-logo-icon "><i class="fas fa-exclamation-triangle animate__animated animate__flash animate__delay-1s" ></i></button>
+                    </div> 
+                    <button class="header-menu-burger animate__animated animate__bounceIn" onclick="showMenu()"><i class="fas fa-bars"></i></button>
+                    <button class="header-search-btn" onclick="showSearch()"><i class="fas fa-search"></i></button>
+                    <nav class="header">
+                        <ul class="header-menu" id="menu">
+                            <li class="header-menu-item"><a href="index.html" class="header-menu-item-link" >Hom</a></li>
+                            <li class="header-menu-item"><a href="calendar.html" class="header-menu-item-link ">Kalender 2021</a></li>
+                            <li class="header-menu-item"><a href="reportage.html" class="header-menu-item-link">Reportage</a></li>
+                            <li class="header-menu-item"><a href="about-us.html" class="header-menu-item-link">Om oss</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-search">
+                        <form method="GET" class="form" action="http://www.alltomswimrun.com">
+                            <input type="text" class="searchBox" >
+                            <button class="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div> 
+                </div>
+        </header>
+<!----------------- End of header --------------->
+<!----------------- Main Start --------------->
+
+<!----------------- Loading --------------->
+        <div id="box" class="box"></div>
+
+<!----------------- End of main --------------->
+<!----------------- Footer Start --------------->
+        <footer class="footer">
+            <section class="app">
+                <section class="footer-row">
+                    <section class="footer-col">
+                        <h3 class="footer-section-title">Uddevalla Swimrun</h3>
+                        <p class="footer-p">Vid frågor eller annat så når ni oss på <a href="mailto:Uddevallaswimrun@gmail.com">Uddevallaswimrun@gmail.com</a></p>
+                        <p class="footer-p">Ha en super skön sommar önskar</p>
+                        <p class="footer-p">Marcus och Dotte</p>
+                    </section>
+                    <section class="footer-col">
+                        <h3 class="footer-section-title">ADRESS</h3>
+                            <p class="footer-p">Gamla Badhuset</p>
+                            <P class="footer-p">Norra Hamngatan 2</P> 
+                            <P class="footer-p">451 30 Uddevalla</P>  
+                    </section>
+                    <section class="footer-col">
+                        <h3 class="footer-section-title">KONTAKTUPPGIFTER</h3>
+                            <p class="footer-p">
+                                <a href="mailto:Uddevallaswimrun@gmail.com">Uddevallaswimrun@gmail.com</a>
+                            </p>
+                            <p class="footer-p">070 4504715</p>
+                    </section>
+                    <section class="clear-fix"></section>
+                </section>
+
+                <section class="footer-line"></section>
+
+                <section class="footer-row">
+                    <p class="footer-p footer-p-padding-20px">
+                        Copyright ©2021 All rights reserved | This template is made with by Hafizullah | Willys | Siemen
+                    </p>
+                    <section class="clear-fix"></section>
+                </section>
+            </section>
+            <section class="clear-fix"></section>
+        </footer>
+<!----------------- End of footer --------------->
+<!-- Btn goes up -->
+        <button id="btnGoesUp" class="btn-goes-up">
+            <i class="fas fa-arrow-circle-up "></i>
+        </button>
+<!-- End of btn goes up -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"></script>
+        <script src="js/404.js"></script>
+    </body>
+</html>
