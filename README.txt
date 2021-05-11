@@ -4,23 +4,27 @@ Swimrun:
   http://www.alltomswimrun.com/
 
 
-Exampel Site:
-  https://www.templatemonsterpreview.com/demo/83888.html
-
-Work with other:
-  https://replit.com/@WGissle/swimrunproject#index.html
-
 -----------------------------------------------------------------------------------
-Material Design Iconic Font:
-  https://zavoloklom.github.io/material-design-iconic-font/icons.html
 
-animate.style:
-  https://animate.style/
+Material Design 
 
-window.onscroll:
-  https://www.youtube.com/watch?v=V9CY0F4Wc7M
+  Iconic Font:
+    https://fontawesome.com/
 
+  animate.style:
+    https://animate.style/
 
+  window.onscroll:
+    https://www.youtube.com/watch?v=V9CY0F4Wc7M
+
+  loadingBox and 404.html
+    https://lottiefiles.com/
+
+  svg images for header and footer:
+    https://bgjar.com/
+
+  Color:
+  https://colorffy.com/color
 
 
 -------------------------------------------------------------------------------------
