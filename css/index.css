@@ -281,7 +281,7 @@
     width: 100%;
     margin-bottom: 40px;
 }
-/* TODO sidebar-list  */
+
 .sidebar-list{
     list-style-type: none;
     padding: 0;
@@ -317,6 +317,8 @@
     width: 100px;
     height: 100px;
     float: left;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
 }
 
 .popular-post-title{

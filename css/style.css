@@ -481,7 +481,7 @@ a:hover > b{
     }
 }
 
-/* TODO 767.98px */
+
 @media (max-width:767.98px){
     .landing-layer-social-menu{
         display: none;
@@ -507,7 +507,7 @@ a:hover > b{
         border-bottom: 2px solid #aab6b5;
     }
 }
-/* TODO 575.98px */
+
 @media (max-width:500px){
     .header-search{
         width: 200px;
@@ -833,7 +833,7 @@ a:hover > b{
     width: 100%;
     margin-bottom: 40px;
 }
-/* TODO sidebar-list  */
+
 .sidebar-list{
     list-style-type: none;
     padding: 0;
