@@ -172,16 +172,16 @@ a:hover > b{
 
 /* --------------------------End of @media for App -------------------------- */
 
-
+/* PART Loading */
 /* -------------------------- Loading box Start-------------------------- */
-.loading-box{
+.box{
     width: 100vw;
     height: 100vh;
     background-color: #0E2A47;
 }
 /* -------------------------- End of loading box -------------------------- */
 
-
+/* PART Header */
 /* -------------------------- Header Start -------------------------- */
 
 /*------------- Landing-layer Start -------------*/

@@ -4,7 +4,7 @@ const box = document.querySelector('#box')
 const loading = lottie.loadAnimation({
     container: box, 
     renderer: 'svg',
-    loop: true,
+    loop: false,
     autoplay: true,
     path: 'https://assets6.lottiefiles.com/packages/lf20_g3epl9yu.json' 
 });
